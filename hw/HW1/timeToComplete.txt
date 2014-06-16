@@ -1,0 +1,12 @@
+Greg McQuie
+Homework 1 - Lorenz Attractor
+CSCI 4229 - Computer Graphics
+DUE: 6/8/2014
+
+***
+*** Time to complete: 2:30 hr
+***
+
+*Note that approximately one hour of this time was spent fighting a black screen and
+figuring out that the lorenz attractor was not rendering because the verticies were outside
+the view of the screen.

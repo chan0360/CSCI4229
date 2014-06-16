@@ -1,0 +1,18 @@
+  Homework 1 - Lorenz Attractor
+  Greg McQuie
+  DUE: 6/7/2014
+  CSCI 4229 - Computer Graphics
+  Description: Visualizes a Lorenz system in 3 dimensions from time=0 to time=50.
+  Instructions: Unzip and run make. Run hw1
+  Controls :    Left Arrow   -  Rotate left
+                Right Arrow  -  Rotate right
+                Up Arrow     -  Rotate up
+                Down Arrow   -  Rotate down
+                s            -  Decrease Lorenz parameter sigma
+                <SHIFT>-S    -  Increase Lorenz parameter sigma
+                b            -  Decrease Lorenz parameter beta
+                <SHIFT>-B    -  Increase Lorenz parameter beta
+                r            -  Decrease Lorenz parameter rho
+                <SHIFT>-R    -  Increase Lorenz parameter rho
+
+
