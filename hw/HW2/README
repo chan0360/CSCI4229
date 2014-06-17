@@ -1,0 +1,20 @@
+
+  Greg McQuie
+  CSCI 4229 - Homework 2
+  DUE: 6/15/2014
+  Description: Displays a small town with houses. Each house 
+               is an instance of a base 'house' object and is 
+               transformed to its final shape and position. Multiple
+               projections are supported as well as rotations and zooming.
+  Compiling:   Run 'make;./hw2' to compile and run. Otherwise 
+               run 'gcc -Wall -O3 -o hw2 hw2.c -lglut -lGLU -lGL -lm'
+               and run './hw2'
+  Controls: <LEFT-ARROW>/<RIGHT-ARROW>  Rotate scene left/right
+            <UP-ARROW>/<DOWN-ARROW>     Rotate scene up/down
+            <PAGE-UP>/<PAGE-DOWN>       Zoom in and out
+            '+'/'-'                     Change field of view of perspective
+            'm'                         Switch between orthogonal and perspective projections
+            'a'                         Turn axes visibility on or off
+            '0'                         Set rotation angles both equal to 0
+  Acknowledgements: Heavily based off of example 9 code
+  Time to Complete: ~2.5 hrs
