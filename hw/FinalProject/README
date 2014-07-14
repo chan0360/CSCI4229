@@ -1,0 +1,38 @@
+  Greg McQuie
+  CSCI 4229 - Final Project
+  DUE: 7/2/2014
+  Description: Simulates raindrops on a small pool of water. This is done
+               by using an approximation to the wave equation. Rather than 
+               using a full mathematical model, the height at a certain point is 
+               estimated by averaging the heights of the point around it. This effectively
+               simulates conservation of energy and creates a wave effect. The scene is textured
+               and the water surface is reflective.
+  Compiling:   Run 'make;./water' to compile and run. Otherwise 
+               run 'gcc -Wall -O3 -o water water.c -lglut -lGLU -lGL -lm'
+               and run './water'
+  Controls: <SPACE>                     Create raindrop
+            'l' or 'L'                  Enable lighting
+            'Q'/'q'                     Change water transparency
+            'A'/'a'                     Increase/decrease ambient light
+            '['/']'                     Raise/lower light source
+            <LEFT-ARROW>/<RIGHT-ARROW>  Rotate scene left/right
+            <UP-ARROW>/<DOWN-ARROW>     Rotate scene up/down
+            <PAGE-UP>/<PAGE-DOWN>       Zoom in and out
+            '+'/'-'                     Change field of view of perspective
+            '0'                         Set rotation angles both equal to 0
+            
+
+
+  Key features:
+    - Realistic looking water simulation
+    - Waves bounce off of walls and conserve energy
+    - Damping on waves can be modified by changing the fluid viscosity
+    - The surface appears reflective, but instead uses a clever texturing to avoid 
+      extra computation and shaders
+    - Lighting is realistic
+
+  Acknowledgements: Water movement is based off of simulation written in 
+                    Pascal found here: http://www.sulaco.co.za/opengl_project_water_ripples.htm
+
+  Time to Complete: 16 hrs (I know it doesn't look it, but I was banging my head against the 
+                    wall trying to figure out the wave movements for quite some time)
